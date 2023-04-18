@@ -1,0 +1,56 @@
+以下是一些 PyMOL 常用命令：
+
+fetch: 从 RCSB Protein Data Bank 下载蛋白质结构文件。
+```
+fetch 1ake
+```
+
+load: 加载蛋白质结构文件。
+
+lua
+Copy code
+load 1ake.pdb
+select: 选择特定的氨基酸或原子。
+
+csharp
+Copy code
+select resi 10-20
+select name ca
+show: 显示分子的表面或线框图。
+
+sql
+Copy code
+show surface
+show sticks
+hide: 隐藏分子的表面或线框图。
+
+Copy code
+hide surface
+hide sticks
+color: 设置分子的颜色。
+
+css
+Copy code
+color red
+zoom: 放大或缩小分子结构。
+
+csharp
+Copy code
+zoom in
+zoom out
+rotate: 旋转分子结构。
+
+Copy code
+rotate x, 90
+rotate y, 90
+align: 将两个结构进行配准。
+
+Copy code
+align 1ake, 1bke
+save: 保存 PyMOL 的会话或图像文件。
+
+arduino
+Copy code
+save session.pse
+save image.png
+这些只是 PyMOL 中的一小部分命令，PyMOL 还有许多其他有用的功能和命令。
